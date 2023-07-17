@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['project-four-pj-1355a7167125.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['project-four-pj-1355a7167125.herokuapp.com', 'localhost', '8000-pjhurtig-project-4-r6ctwdm8t8.us2.codeanyapp.com']
 
 
 # Application definition
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'main',
 ]
 
